@@ -1,0 +1,232 @@
+*{margin:0; padding:0 auto;}
+body{
+	line-height:24px;
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color: #7b838a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: sans-serif;
+	font-weight:700;
+	color: #002347;
+}
+.list{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration:none;
+	transition:all 0.3s ease-in-out;
+	
+}
+a:hover, a:focus{
+	text-decoration: none;
+	outline: none;
+}
+button:focus{
+	outline:none;
+	box-shadow: none;
+}
+.header_top li {
+	padding:10px;
+}
+.header_top li a{
+	font-family: ;
+	font-size: 18px;
+	font-weight:500;
+	color: #3c4858;
+}
+.header_top li a:hover{
+	color: #19A15E;
+}
+.header_top .border-li{
+	width: 2px;
+	height:100px;
+	top:0;
+	right: 20px;
+	background-color: #E8BCBC;
+	position:absolute;
+	
+	
+}
+.header_top .login_li{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	box-sizing: border-box;
+	background-color: #E8BCBC;
+	position:relative;
+	right:-20px;
+	top:50px;
+}
+.header_top .login_li a{
+	color:#fff;
+	padding:5px;
+	text-align: center;
+	line-height:50px;
+}
+/****** Service *******/
+section{
+	position: relative:
+}
+.service-top{
+  
+}
+.service-bottom{
+}
+.section-title{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.section-title h4{
+	color: #999999;
+	font-weight:600;
+	padding-bottom: 5px;
+}
+.section-title h2{
+	color: #26acb9;
+	font-weight:700;
+	padding-bottom: 5px;
+}
+.service-section .card{
+	border: none;
+    min-height: 450px;
+	background-color: #f2fff7;
+}
+.service-section .card:hover{
+	box-shadow: 0px 2px 9px 1px rgba(97,88,97,0.6);
+	transition: .5s ease;
+}
+.service-section .card .card-img-top i{
+    font-size: 80px;
+    color: #6DD0D9;
+    padding: 15px;
+	border:
+}	
+.about-section img{
+	width: 100%;
+	height: 500px;
+}
+.about-section .btn{
+	margin-top:-18%; 
+	background-color: #FFCD41;
+	border: none;
+	border-radius: 0;
+	padding: 10px 20px;
+	color: #fff;
+}
+.about_us{
+	padding-left:40px;
+}
+.signature{
+	font-size: 70px;
+	color: #8DF19B;
+	margin-left: 300px;
+}
+/****** Training *******/
+#best-training{
+	background-color: #F7F9FC;
+	padding: 30px 0px;
+	min-height: 600px;
+}
+.course_section{
+	height: 250px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.course_section i{
+	padding:50px;
+	font-size: 50px;
+	color: #72B0F2;
+	
+}
+.course_section .btn{
+	padding: 5px 15px;
+	margin-top:10px;
+}
+/****** Testimonial *******/
+#testimonial{
+	padding: 50px 0px; 
+	border-bottom: 1px solid #C5BAF5;
+}
+.testimonial_icon img{
+	height: 200px;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+/********** Project ************/
+#project{
+	padding: 50px 0px;
+}
+.portfolio-template img{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+	margin:10px;
+    background-color: #7f6868;
+    box-shadow: 1px 2px 4px 0px black;
+}
+
+/*******Best Team*******/
+.best-team .card{
+	padding:30px;
+}
+.best-team .card-img-top img{
+	height: 100px;
+	width: 100px;
+	margin:10px;
+}
+
+i.fas.fa-plus-circle {
+    padding: 10px;
+    color: #2A75B8;
+    font-size: 20px;
+}
+
+section.best-team {
+    padding: 0 0 100px;
+}
+
+/********Footer Section********/
+section#footer-section {
+    padding-top: 120px;
+}
+
+i.fas.fa-signature {
+    font-size: 160px;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 10px;
+}
+
+i.fab.fa-facebook-f {color: #385080;}
+
+li.nav-item {
+    padding: 10px;
+}
+
+a.nav-link {
+    color: #385080;
+}
+.links .navbar-nav a {
+    color: #8c8686;
+    padding-bottom: 14px;
+    font-size: 17px;
+}
+.links.col-md-7 {
+    padding-top: 72px;
+}
+
+.copyright-footer p {
+    margin-top: 30px;
+}
